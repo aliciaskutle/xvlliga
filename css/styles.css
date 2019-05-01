@@ -41,23 +41,25 @@ header {
 
 .masthead {
   text-align: center;
+  margin: 60px 0;
 }
 
-.masthead-logo {
-  height: 120px;
-  width: auto;
-  margin-top: 20px;
+img.masthead-logo {
+  max-width: 300px;
+  max-height: 65px;
 }
 
 h1 {
-  text-transform: uppercase;
   text-align: center;
-  font-size: 20px;
-  margin-top: 5px;
+  font-size: 45px;
+  margin: 5px 0 60px 0;
 }
 
 /*Sections*/
 
+.section-container {
+  margin-bottom: 80px;
+}
 .section {
   background-color: #2c4455;
   width: 98%;
@@ -69,6 +71,8 @@ h1 {
   justify-content: center;
   align-items: center;
   margin: 1%;
+  border: #072437 1px solid;
+  border-radius: 10px;
 }
 
 .volley-icon {
@@ -80,11 +84,10 @@ h1 {
 
 .section-icon-info a {
   display: flex;
-  padding: 5px;
-  text-transform: uppercase;
+  padding: 20px 60px;
   text-decoration: none;
-  font-size: 25px;
-  color: #f6b533;
+  font-size: 35px;
+  color: #ebedef;
 }
 
 .age-group-container {
@@ -126,7 +129,7 @@ h1 {
 }
 
 .mastfoot .inner a {
-  color: #f6b533;
+  color: #dde6e8;
   text-decoration: none;
 }
 
@@ -172,17 +175,6 @@ h1 {
 @media screen and (min-width: 1024px) {
   .cover-container {
     margin: 20px 6rem;
-  }
-
-  h1 {
-    margin: 2rem 0;
-    font-size: 25px;
-  }
-
-  .masthead-logo {
-    height: 150px;
-    width: auto;
-    margin-top: 40px;
   }
 
   .section-container {
