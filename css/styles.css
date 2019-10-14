@@ -180,6 +180,10 @@ h1 {
   .section-container {
     margin-bottom: 3rem;
   }
+  
+  .section-icon {
+    margin: 120px 0 200px 0;
+  }
 
   .mastfoot {
     padding: 2rem 0;
